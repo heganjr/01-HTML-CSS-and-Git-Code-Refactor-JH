@@ -199,7 +199,9 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer div p {
     font-size: 20px;
+    font-weight: bolder;
 }
 /*Removed class selector and changed to html selector "footer" and "footer h2"*/
+/*Changed 'footer h2' to 'footer div p' - added font-weight property to re-create original <h2> tag style*/
