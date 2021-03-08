@@ -8,7 +8,7 @@ Code Refractor - Bootcamp UWA Feb 2021 by Jacob Hegan
 ____
 ## The Task ##
 
-Marketing Agency 'Horiseon' wants to to optimise their site for search engine results by improving their accessibility standards within their codebase.
+Marketing Agency 'Horiseon' wants to optimise their site for search engine results by improving their accessibility standards within their codebase.
 
 In order to meet these accessibility standards the following should be met:
 - Semantic HTML elements are present in the source code
