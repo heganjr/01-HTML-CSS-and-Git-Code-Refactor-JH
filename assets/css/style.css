@@ -49,11 +49,9 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/*Removed p style of 16px font size as this is already the default p element font size */
 
-.hero {
+.background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -61,6 +59,12 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+.background-image figcaption {
+    display: none;
+}
+/*Changed selector to reflect class change in html from 'hero' to 'background-image'*/
+/*Added a style with display: none - wanted a figcaption element for accessibility purposes but don't want the caption shown on the page*/
 
 .float-left {
     float: left;
@@ -90,55 +94,26 @@ aside {
 }
 /*Removed benefits class selector, added aside to reflect semantic element added to html*/
 
-.benefit-lead {
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/*Removed identical style values from multiple classes and grouped them together as class="benefits"*/
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/*Removed identical style values from multiple classes and grouped them together as class="benefits"*/
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/*Removed identical style values from multiple classes and grouped them together as class="benefits"*/
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.main-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -146,51 +121,21 @@ aside {
     background-color: #0072bb;
     color: #ffffff;
 }
+/*Removed identical style values from multiple classes and grouped them together as class="main-section"*/
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.main-section img {
     max-height: 200px;
 }
+/*Removed identical style values from multiple classes and grouped them together as class="main-section"*/
 
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*Removed identical style values from multiple classes and grouped them together as class="main-section"*/
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 footer {
     padding: 30px;

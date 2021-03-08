@@ -30,67 +30,87 @@
         <!--Added nav semantic tag, removed div tag-->
     </header>
     <!--Added header semantic tag, removed class="header"-->
-    <div class="hero"></div>
+    <figure class="background-image">
+        <figcaption>Fig.1 - Horiseon employees improving your search engine results</figcaption>
+    </figure>
+    <!--Added figure and figcaption semantic tag - changed class name from 'hero' to 'background-image' to make better sense of image purpose-->
     <main class="content">
-        <section class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" alt="Notepad with Search Engine Optimization Ideas" class="float-left" />
-            <!--Added alt attribute to image tag-->
+        <section id="search-engine-optimization" class="main-section">
+            <figure>
+                <img src="./assets/images/search-engine-optimization.jpg" alt="Notepad with Search Engine Optimization Ideas" class="float-left" />
+            </figure>
+            <!--Added alt attribute to image tag - Added figure semantic without figcaption as img alt attribute shares the same accessibility purpose-->
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
         <!--Added section semantic element, removed non-semantic div element-->
-        <section id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" alt="Increase in Brand Reputation" class="float-right" />
-            <!--Added alt attribute to image tag-->
+        <!--Added id="search-engine-optimiszation" to improve navigation functionality-->
+        <!--Changed section class to main-section to group identical styles together within the main tag-->
+        <section id="online-reputation-management" class="main-section">
+            <figure>
+                <img src="./assets/images/online-reputation-management.jpg" alt="Increase in Brand Reputation" class="float-right" />
+            </figure>
+            <!--Added alt attribute to image tag - Added figure semantic without figcaption as img alt attribute shares the same accessibility purpose-->
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </section>
         <!--Added section semantic element, removed non-semantic div element-->
-        <section id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" alt="Improving your social media marketing" class="float-left" />
-            <!--Added alt attribute to image tag-->
+        <!--Changed section class to main-section to group identical styles together within the main tag-->
+        <section id="social-media-marketing" class="main-section">
+            <figure>
+                <img src="./assets/images/social-media-marketing.jpg" alt="Improving your social media marketing" class="float-left" />
+            </figure>
+            <!--Added alt attribute to image tag - Added figure semantic without figcaption as img alt attribute shares the same accessibility purpose-->
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </section>
         <!--Added section semantic element, removed non-semantic div element-->
+        <!--Changed section class to main-section to group identical styles together within the main tag-->
     </main>
     <!--Added main semantic element, removed div element-->
     <aside>
-        <section class="benefit-lead">
+        <section class="benefits">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="Creating less work with more success" />
-            <!--Added alt attribute to image tag-->
+            <figure>
+                <img src="./assets/images/lead-generation.png" alt="Creating less work with more success" />
+            </figure>   
+            <!--Added alt attribute to image tag - Added figure semantic without figcaption as img alt attribute shares the same accessibility purpose-->
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </section>
         <!--Added section semantic element, removed div element-->
-        <section class="benefit-brand">
+        <section class="benefits">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt="Increeasing your brand awareness through imrproved search engine results" />
-            <!--Added alt attribute to image tag-->
+            <figure>
+                <img src="./assets/images/brand-awareness.png" alt="Increeasing your brand awareness through imrproved search engine results" />
+            </figure>
+            <!--Added alt attribute to image tag - Added figure semantic without figcaption as img alt attribute shares the same accessibility purpose-->
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </section>
         <!--Added section semantic element, removed div element-->
-        <section class="benefit-cost">
+        <section class="benefits">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" alt="Increasing search ranking leads to less advertising costs"></img>
-            <!--Added alt attribute to image tag-->
+            <figure>
+                <img src="./assets/images/cost-management.png" alt="Increasing search ranking leads to less advertising costs"></img>
+            </figure>
+            <!--Added alt attribute to image tag - Added figure semantic without figcaption as img alt attribute shares the same accessibility purpose-->
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </section>
         <!--Added section semantic element, removed div element-->
     </aside>
-    <!--Removed div, added Aside semantic, removed class="benefit"-->
+    <!--Removed div, added Aside semantic-->
+    <!--Grouped Classes from Aside Section elements into same class="benefits" adjusted stylesheet to reflect-->
     <footer>
         <div>
         <p>Made with ❤️️ by Horiseon</p>
