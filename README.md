@@ -21,15 +21,15 @@ In order to meet these accessibility standards the following should be met:
 
 [Index.html](../Develop/index.html)
 
-[Style.css](../Develop/assets/css/style.css)
+[Style.css](./assets/css/style.css)
 
 _______
 
 ## Screenshot ##
 
-![Header and Background Image](../Develop/assets/images/screenshot-1.PNG)
+![Header and Background Image](./assets/images/screenshot-1.PNG)
 
-![Main Content and Aside Content](../Develop/assets/images/screenshot-2.PNG)
+![Main Content and Aside Content](./assets/images/screenshot-2.PNG)
 
-![Footer](../Develop/assets/images/screenshot-3.PNG)
+![Footer](./assets/images/screenshot-3.PNG)
 
